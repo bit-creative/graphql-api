@@ -1,0 +1,9 @@
+{
+  "restartable": "rs",
+  "runOnChangeOnly": false,
+  "ext": "js,graphql",
+  "execMap": {
+    "js": "babel-node"
+  },
+  "exec": "yarn update-graphql-imports && src/index.js"
+}
