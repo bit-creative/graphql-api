@@ -5,5 +5,5 @@
   "execMap": {
     "js": "babel-node"
   },
-  "exec": "yarn update-graphql-imports && src/index.js"
+  "exec": "yarn update-graphql-imports && babel-node src/index.js"
 }
